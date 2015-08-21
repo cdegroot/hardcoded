@@ -21,7 +21,7 @@ The library, if ever finished (pull requests welcome) will let you say:
 
 ```scala
 class DatabasePool(env: Environment) {
-  val clientPoolSize = EnvLocal[Int]("CLIENT_POOLSIZE", (PROD, LT) -> 50, DEFAULT -> 2)
+  val clientPoolSize = EnvLocal("CLIENT_POOLSIZE", (PROD, LT) -> 50, DEFAULT -> 2)
   ...
   def setup = {
     ...
