@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cdegroot/hardcoded.svg)](https://travis-ci.org/cdegroot/hardcoded)
+
 # hardcoded
 Away with configuration frameworks!
 
