@@ -21,6 +21,7 @@ The library lets you say:
 
 ```scala
 class DatabasePool(env: Environment) {
+  // Configure client pool size: prod, lt have 50, all the rest have 2
   val clientPoolSize = EnvLocal("CLIENT_POOLSIZE", (PROD, LT) -> 50, DEFAULT -> 2)
   ...
   def setup = {
@@ -33,4 +34,3 @@ class DatabasePool(env: Environment) {
 ```
 
 You hardcode the run-time values with the code, it's type safe, your IDE understands it, and you understand it. I threw in the first string (optional) so you can specify an environment variable to override the hardcoded values (see also http://12factor.net/config). This is the whole of the library API.
-
