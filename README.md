@@ -17,7 +17,7 @@ In all shops where I worked the last decade or so, configuration files were chec
 
 ## Interface
 
-The library, if ever finished (pull requests welcome) will let you say:
+The library lets you say:
 
 ```scala
 class DatabasePool(env: Environment) {
