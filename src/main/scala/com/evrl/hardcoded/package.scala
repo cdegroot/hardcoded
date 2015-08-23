@@ -33,7 +33,7 @@ package object hardcoded {
    * @tparam T the type that this instance encapsulates
    */
   case class EnvLocal[T: TypeTag](envOverrideName: String, defs: EnvironmentValue[T]*) {
-    def this(defs: EnvironmentValue[T]*) = this(null, defs:_*)
+    def this(defs: EnvironmentValue[T]*) = this(null:String, defs:_*)
 
     /**
      * Return the value for the indicated environment.
