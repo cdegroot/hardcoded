@@ -34,3 +34,12 @@ class DatabasePool(env: Environment) {
 ```
 
 You hardcode the run-time values with the code, it's type safe, your IDE understands it, and you understand it. I threw in the first string (optional) so you can specify an environment variable to override the hardcoded values (see also http://12factor.net/config). This is the whole of the library API.
+
+## How to integrate
+
+Use [JitPack](https://jitpack.io/#cdegroot/hardcoded)
+
+## License
+
+This code is released under the Apache License, Version 2.0. See the included LICENSE file for details.
+
