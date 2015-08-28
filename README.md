@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/cdegroot/hardcoded.svg)](https://travis-ci.org/cdegroot/hardcoded)
+[![JitPack](https://img.shields.io/github/release/cdegroot/hardcoded.svg?label=JitPack)](https://jitpack.io/#cdegroot/hardcoded/)
 
 # hardcoded
 Away with configuration frameworks!
