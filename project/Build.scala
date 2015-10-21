@@ -6,6 +6,7 @@ object HardcodedBuild extends Build {
   lazy val root = Project(id = "hardcoded", base = file("."))
     .configs(IntegrationTest)
     .settings(
+      version := "1.1.1",
       scalaVersion := "2.11.7",
       crossScalaVersions := Seq("2.10.6", "2.11.7"),
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-feature", "-Xfatal-warnings"),
